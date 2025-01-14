@@ -55,7 +55,7 @@ import javax.xml.bind.annotation.XmlType;
  * 
  * 
  */
-@XmlRootElement(name = "Texgit")
+@XmlRootElement(namespace = "http://jrimum.org/texgit", name = "Texgit")
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "MetaTexgit", propOrder = {
 
